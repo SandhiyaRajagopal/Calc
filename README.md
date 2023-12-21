@@ -71,7 +71,7 @@ Publish the website in the given URL.
             <input type="button" onkeydown="op(event)" onclick="f('5')" value="5">
             <input type="button" onkeydown="op(event)" onclick="f('6')" value="6">
             <input type="button" onkeydown="op(event)" onclick="f('*')" value="x">
-            <input type="button" onkeydown="op(event)" onclick="f('^0.5')" value="^0.5"><br><br>
+            <input type="button" onkeydown="op(event)" onclick="f('^0.5')" value="&radic;"><br><br>
     
             <input type="button" onkeydown="op(event)" onclick="f('1')" value="1">
             <input type="button" onkeydown="op(event)" onclick="f('2')" value="2">
@@ -101,7 +101,7 @@ Publish the website in the given URL.
 
     function op(event) {
         if (event.key == '7' || event.key == '8' || event.key == '9' || event.key == '+' || event.key == '+/-' || event.key == '4' ||
-            event.key == '5' || event.key == '6' || event.key == '*' || event.key == '^' || event.key == '1' ||
+            event.key == '5' || event.key == '6' || event.key == '*' || event.key == '^0.5' || event.key == '1' ||
             event.key == '2' || event.key == '3' || event.key == '-' || event.key == '/' || event.key == '0' || event.key == '.') {
             document.getElementById('t1').value += event.key;
         }
@@ -125,7 +125,8 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
-![Alt text](Sandhiya/Calcapp/static/Calci.png)
+
+![Alt text](<Sandhiya/Calcapp/static/Screenshot (79).png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
