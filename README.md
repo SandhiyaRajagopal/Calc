@@ -124,8 +124,8 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
-![Alt text](<Sandhiya/Calcapp/static/Screenshot (81).png>)
-![Alt text](<Sandhiya/Calcapp/static/Screenshot (82).png>)
+![Alt text](<Screenshot (81).png>)
+![Alt text](<Screenshot (82).png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
